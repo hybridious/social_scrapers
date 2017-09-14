@@ -1,0 +1,14 @@
+.DS_Store
+.project
+*.pyc
+sublime-project/
+data/
+tkinter_testing.py
+daedalus_temp.py
+deicide_temp.py
+instagram_requests.py
+template__.py
+main_ctrl.py
+vsco_requests.py
+wisp_template.py
+_social_security.py
