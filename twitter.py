@@ -2,10 +2,6 @@ import os, re, time, requests, urllib.request, threading
 from selenium import webdriver
 from queue import Queue
 
-'''
-madballs1998joker
-'''
-
 # spath = r'L:\pythonscripts\scrapers\instagram\resources'
 spath = r'P:\images\personal\twit'
 database_path = os.path.join(os.getcwd(), 'data', 'txt-databases', 'twitter.txt')
