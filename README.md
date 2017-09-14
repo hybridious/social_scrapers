@@ -1,6 +1,6 @@
 # Social Scrapers
-Python scrapers for social sites using selenium browser module    
-includes ability to scrape from:  
+Python scrapers for social sites, using selenium browser module.    
+Current build supports scraping for:  
 Discord  
 Facebook  
 Imgur  
