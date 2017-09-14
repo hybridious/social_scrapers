@@ -1,5 +1,5 @@
-# social_scrapers
-python scrapers for social media using selenium browser module  
+# Social Scrapers
+Python scrapers for social sites using selenium browser module    
 includes ability to scrape from:  
 Discord  
 Facebook  
