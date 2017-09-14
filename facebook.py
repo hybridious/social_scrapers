@@ -39,8 +39,6 @@ destroy(e);
 # archive_path = os.path.join(os.getcwd(), 'test', 'archive', 'facebook')
 archive_path = r'P:\images\personal\databases\facebook'
 database_path = os.path.join(os.getcwd(), 'data', 'txt-databases', 'facebook.txt')
-email = 'brandonater1998@hotmail.com'
-password = 'gaybacon1998'
 
 class facebook():
 	def __init__(self, email, password, debug=True):
@@ -197,4 +195,3 @@ class facebook():
 		self.B.close()
 
 f = facebook(email, password)
-

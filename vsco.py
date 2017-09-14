@@ -37,11 +37,9 @@ class vsco():
 		self.teardown_browser()
 
 	def init_browser(self):
-		# profile = webdriver.FirefoxProfile()
-		# profile.set_preference('browser.privatebrowsing.autostart', True)
-		path = r'C:\Users\fjjfs\Downloads\chromedriver_win32'
-		path = r'C:\Users\fjjfs\Downloads\geckodriver-v0.18.0-win64'
-		self.B = webdriver.Firefox(path)
+		profile = webdriver.FirefoxProfile()
+		profile.set_preference('browser.privatebrowsing.autostart', True)
+		self.B = webdriver.Firefox(firefox_profile=p)
 		self.B.set_window_size(500, 900)
 		if self.DEBUG:
 			self.B.set_window_position(0, 20)
