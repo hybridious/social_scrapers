@@ -2,24 +2,6 @@ import os, time, sys, shelve
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
-'''
-I could make a GUI wrapper around this and sell it to blog people who need
-access to tumblr accounts fast
-
-theirs value in programmatically wrapping things in a GUI and selling them
-Interfacing  effeciently is valuable
-
-Side business of programmatically wrapping common functions for people to
-upload content faster
-
-For mass produced entertainment
-I could take the initiative to do it myself
-
-Take this concept and apply to other online things that need to be done faster
-batch uploading is valuable to popular people who have content to professionals who 
-upload on a schedule
-'''
-
 class tumblr():
 	def __init__(self, email, password, blog, debug=False):
 		# Javascript to get rid of cluttering elements
@@ -188,12 +170,12 @@ class tumblr():
 
 
 t = tumblr(
-	'ironwristfighter@gmail.com', 
-	'GayBacon', 
-	'https://www.tumblr.com/blog/themotherlode',
+	email, 
+	password, 
+	sitename,
 	debug=True)
 
-t.batch_upload(r'P:\images\personal\index')
+t.batch_upload(path)
 
 
 
