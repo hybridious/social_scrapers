@@ -176,12 +176,3 @@ t = tumblr(
 	debug=True)
 
 t.batch_upload(path)
-
-
-
-# if youtube knows what comments you like they can link that to your phone number
-# that you gave when you signed up for gmail
-# Using the comments they can use natural language learning to find out the context
-# Literally finding out what you support and believe or hate
-
-# you could scrape popular sites to get a sentiment analysis for investing in stocks
